@@ -1,0 +1,62 @@
+.channel {
+  background: none!important;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  color: silver;
+  display: block;
+  text-decoration: none;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  transition: 0.2s all;
+  font-weight: 500;
+
+  &__icon {
+    margin-right: 16px;
+  }
+
+  &__icon--active {
+    color:red
+  }
+
+  &--active  {
+    color: white;
+  }
+
+  &--shadow {
+    text-shadow: 1px 1px rgb(0 0 0 / 70%);
+  }
+}
+
+.channel-container {
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.2s all;
+
+  align-self: flex-start;
+
+  &:hover {
+    color: red;
+    transform: scale(1.2);
+  }
+
+  &:hover .channel {
+    color: white;
+  }
+
+  &:active {
+    color: white;
+    transform: scale(0.98);
+  }
+
+  .link-update {
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    transform-origin: bottom;
+  }
+}

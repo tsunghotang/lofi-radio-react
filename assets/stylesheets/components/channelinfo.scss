@@ -1,0 +1,44 @@
+.channel-info-area {
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  margin-right: 38px;
+  margin-left: 38px;
+}
+
+.channel-info {
+  position: absolute;
+  right: 0;
+  bottom: 27%;
+  transform: translateX(500px);
+  opacity: 0;
+  text-align: center;
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.375rem;
+    letter-spacing: 7px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+  }
+
+  &--animation {
+    transition: 1s all;
+    transform: translateX(0);
+    opacity: 100%;
+  }
+
+  &__underline {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 18px;
+  }
+
+  &_title--shadow {
+    text-shadow: 1px 1px rgb(0 0 0 / 70%);
+  }
+}

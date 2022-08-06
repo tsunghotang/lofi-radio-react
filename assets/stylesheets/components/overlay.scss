@@ -1,0 +1,18 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  // reponsive image
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  &--paused {
+    background-color: rgba(0, 0, 0, 0.94);
+  }
+}
