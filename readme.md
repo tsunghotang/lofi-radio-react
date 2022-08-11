@@ -43,8 +43,8 @@ yarn deploy
 ---
 
 ## TODO
-[ ] - Change status state implementation from boolean to a string.
-[ ] - Redo CSS for the controls
+ - [ ] Change status state implementation from boolean to a string.
+ - [ ] Redo CSS for the controls
 Fix accessibility issues
-  [ ] - Make the Channel List accessible - (change to native interactable element)
-  [ ] - make controls accessible/ tabbable
+  - [ ] Make the Channel List accessible - (change to native interactable element)
+  - [ ] Make controls accessible/tabbable
