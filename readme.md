@@ -5,7 +5,7 @@ A React app that utilizes react-player to browse and play different Lofi Radio c
 ---
 ![](Screenshot.png)
 
-App home:
+App home: accessible
 
 ---
 
