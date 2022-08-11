@@ -14,7 +14,7 @@ const channels = [
 
   { name: 'Lofi Girl', url: 'https://www.youtube.com/watch?v=jfKfPfyJRdk', img: LofiGirlImg },
   { name: 'Lofi Girl - Sleep/Chill', url: 'https://www.youtube.com/watch?v=rUxyKA_-grg', img: LofiGirl2Img },
-  { name: 'Bootleg Boy', url: 'https://www.youtube.com/watch?v=vq3IvvNe7VY', img: BootlegBoyImg },
+  { name: 'Bootleg Boy', url: 'https://www.youtube.com/watch?v=bLlloaA4b4g', img: BootlegBoyImg },
   { name: 'Chillhop', url: 'https://www.youtube.com/watch?v=5yx6BWlEVcY', img: ChillhopImg },
   { name: 'Chillhop - Relax/Chill', url: 'https://www.youtube.com/watch?v=7NOSDKb0HlU', img: ChillhopImg2 },
   { name: 'College Guy', url: 'https://www.youtube.com/watch?v=XDh0JcxrbPM', img: CollegeGuyImg },
