@@ -43,6 +43,7 @@ yarn deploy
 ---
 
 ## TODO
+ - [ ] Background images take a while to initially load. Reduce file size / make responsive 
  - [ ] Change status state implementation from boolean to a string.
  - [ ] Redo CSS for the controls
 Fix accessibility issues
